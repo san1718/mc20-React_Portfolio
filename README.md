@@ -43,7 +43,7 @@ This portfolio represents who I am as a developer. It highlights my technical sk
 
 ## Links
 - [GitHub Repository](https://github.com/san1718/mc20-React_Portfolio)
-- [Live Demo](#)
+- [Live Demo](##)
 
 ## Screenshots
 <img width="1000" alt="Homepage" src="">

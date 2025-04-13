@@ -4,11 +4,9 @@ const Contact = () => {
       <h2 className="text-2xl font-semibold mt-6 mb-2">Let's Connect</h2>
       <p>
         I'm always eager to collaborate on innovative projects and expand my
-        horizons in the tech industry.
-        I'm always open to new opportunities, collaborations, or just a friendly
-        chat about tech. Feel free to reach out to me through the platforms
-        below:
-
+        horizons in the tech industry. I'm always open to new opportunities,
+        collaborations, or just a friendly chat about tech. Feel free to reach
+        out to me through the platforms below:
       </p>
       <ul className="mt-2">
         <li>
@@ -45,7 +43,7 @@ const Contact = () => {
       </ul>
 
       {/* Contact form - can use Formspree or EmailJS to customize or add stuff, align stuff after */}
-            
+      {/*             
       <form className="space-y-4">
         <div>
           <label className="block mb-1 font-medium">Name: </label>
@@ -81,7 +79,7 @@ const Contact = () => {
           Send Message
         </button>
       </form>
-     
+      */}
     </section>
   );
 };

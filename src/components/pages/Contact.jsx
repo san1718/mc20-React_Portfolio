@@ -36,7 +36,7 @@ const Contact = () => {
         <li>
           📧{" "}
           <a
-            href="mailto:an.sungmin17@gmail.com?subject=Contact from website&body=Hello, I wanted to reach out to you regarding..."
+            href="mailto:gripsaitesting@gmail.com?subject=Contact from website&body=Hello, I wanted to reach out to you regarding..."
             className="text-blue-600 underline"
           >
             Email
@@ -45,10 +45,10 @@ const Contact = () => {
       </ul>
 
       {/* Contact form - can use Formspree or EmailJS to customize or add stuff, align stuff after */}
-      {/*       
+            
       <form className="space-y-4">
         <div>
-          <label className="block mb-1 font-medium">Name</label>
+          <label className="block mb-1 font-medium">Name: </label>
           <input
             type="text"
             className="w-full border rounded p-2"
@@ -57,7 +57,7 @@ const Contact = () => {
           />
         </div>
         <div>
-          <label className="block mb-1 font-medium">Email</label>
+          <label className="block mb-1 font-medium">Email: </label>
           <input
             type="email"
             className="w-full border rounded p-2"
@@ -66,7 +66,7 @@ const Contact = () => {
           />
         </div>
         <div>
-          <label className="block mb-1 font-medium">Message</label>
+          <label className="block mb-1 font-medium">Message: </label>
           <textarea
             className="w-full border rounded p-2"
             placeholder="Your message"
@@ -81,7 +81,7 @@ const Contact = () => {
           Send Message
         </button>
       </form>
-      */}
+     
     </section>
   );
 };

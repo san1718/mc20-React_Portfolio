@@ -1,42 +1,45 @@
 const Contact = () => {
   return (
     <section className="contact p-6 max-w-2xl mx-auto">
-      <h2 className="text-3xl font-bold mb-4">Contact Me</h2>
-      <p className="mb-4">
-        I'm always open to new opportunities, collaborations, or just a friendly chat about tech.
-        Feel free to reach out to me through the platforms below:
-      </p>
+      <h2 className="text-2xl font-semibold mt-6 mb-2">Let's Connect</h2>
+      <p>
+        I'm always eager to collaborate on innovative projects and expand my
+        horizons in the tech industry.
+        I'm always open to new opportunities, collaborations, or just a friendly
+        chat about tech. Feel free to reach out to me through the platforms
+        below:
 
-      <ul className="mb-6 space-y-2">
+      </p>
+      <ul className="mt-2">
         <li>
-          📧 <span className="font-medium">Email:</span>{' '}
-          <a
-            href="mailto:sungan.dev@gmail.com"
-            className="text-blue-600 underline"
-          >
-            {/* @gmail.com */}
-          </a>
-        </li>
-        <li>
-          💻 <span className="font-medium">GitHub:</span>{' '}
+          💻{" "}
           <a
             href="https://github.com/san1718"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-600 underline"
           >
-            github.com/san1718
+            GitHub
           </a>
         </li>
         <li>
-          💼 <span className="font-medium">LinkedIn:</span>{' '}
+          💼{" "}
           <a
             href="https://www.linkedin.com/in/san1718"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-600 underline"
           >
-            linkedin.com/in/san1718
+            LinkedIn
+          </a>
+        </li>
+        <li>
+          📧{" "}
+          <a
+            href="mailto:an.sungmin17@gmail.com?subject=Contact from website&body=Hello, I wanted to reach out to you regarding..."
+            className="text-blue-600 underline"
+          >
+            Email
           </a>
         </li>
       </ul>

@@ -18,9 +18,10 @@ export default function Projects() {
             className="text-blue-600 underline"
           >
             Currency Convenience
-          </a>{' '}
-          - A comprehensive tool designed to assist travelers by providing real-time currency
-          exchange rates and weather updates for their destinations.
+          </a>{" "}
+          - A comprehensive tool designed to assist travelers by providing
+          real-time currency exchange rates and weather updates for their
+          destinations.
         </li>
         <li>
           {/* README generator */}
@@ -31,9 +32,10 @@ export default function Projects() {
             className="text-blue-600 underline"
           >
             Professional README.md Generator
-          </a>{' '}
-          - An efficient command-line application that automates the creation of professional README
-          files, streamlining the documentation process for developers.
+          </a>{" "}
+          - An efficient command-line application that automates the creation of
+          professional README files, streamlining the documentation process for
+          developers.
         </li>
         <li>
           <a
@@ -43,9 +45,10 @@ export default function Projects() {
             className="text-blue-600 underline"
           >
             The Blog Spacer
-          </a>{' '}
-          - A CMS-style blog platform that empowers users to create accounts, publish posts, and
-          engage with a community through comments, fostering interactive discussions.
+          </a>{" "}
+          - A CMS-style blog platform that empowers users to create accounts,
+          publish posts, and engage with a community through comments, fostering
+          interactive discussions.
         </li>
         <li>
           <a
@@ -55,9 +58,10 @@ export default function Projects() {
             className="text-blue-600 underline"
           >
             Social Network API
-          </a>{' '}
-          - A robust backend API for a social networking application, enabling users to share
-          thoughts, react to friends' posts, and manage their social connections seamlessly.
+          </a>{" "}
+          - A robust backend API for a social networking application, enabling
+          users to share thoughts, react to friends' posts, and manage their
+          social connections seamlessly.
         </li>
         <li>
           <a
@@ -67,20 +71,24 @@ export default function Projects() {
             className="text-blue-600 underline"
           >
             Book Search & Save
-          </a>{' '}
-          - A full-stack application that allows users to search for books and save their favorites,
-          integrating the Google Books API for comprehensive search capabilities.
+          </a>{" "}
+          - A full-stack application that allows users to search for books and
+          save their favorites, integrating the Google Books API for
+          comprehensive search capabilities.
         </li>
       </ul>
 
-      <h3 className="text-2xl font-semibold mt-6 mb-2">Skills and Technologies</h3>
+      <h3 className="text-2xl font-semibold mt-6 mb-2">
+        Skills and Technologies
+      </h3>
       <ul className="list-disc list-inside mb-6">
         <li>Front-End: HTML, CSS, JavaScript, React</li>
         <li>Back-End: Node.js, Express.js</li>
         <li>Databases: MongoDB, MySQL</li>
-        <li>Other Tools: Git, GitHub, REST APIs, Mongoose, Sequelize, JWT, GraphQL</li>
+        <li>
+          Other Tools: Git, GitHub, REST APIs, Mongoose, Sequelize, JWT, GraphQL
+        </li>
       </ul>
-
     </section>
   );
 }

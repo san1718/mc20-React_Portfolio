@@ -43,7 +43,7 @@ const Contact = () => {
       </ul>
 
       {/* Contact form - can use Formspree or EmailJS to customize or add stuff, align stuff after */}
-                  
+{/*                   
       <form className="space-y-4">
         <div>
           <label className="block mb-1 font-medium">Name: </label>
@@ -79,7 +79,7 @@ const Contact = () => {
           Send Message
         </button>
       </form>
-     
+      */}
     </section>
   );
 };

@@ -21,7 +21,8 @@ const Home = () => {
           href="https://github.com/san1718"
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-gray-900 text-white px-4 py-2 rounded hover:bg-gray-700 transition"
+          style={{backgroundColor: '#1a202c', color: 'white' }}
+          className="px-4 py-2 rounded hover:bg-gray-700 transition"
         >
           View GitHub
         </a>
